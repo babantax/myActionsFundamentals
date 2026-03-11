@@ -15,7 +15,7 @@ jobs:
         - run: |
             echo: "The job was triggered by event: ${{github.event_name}}"
             echo: "The name of the branch is ${{github.ref}} ."
-        - uses: actions/checkout@3.3.0
+        - uses: actions/checkout@v3.3.0
         - name: List files in the repo
           run: |
             echo: "List files in the repository ${{github.repository}}: "
